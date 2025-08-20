@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(20, 20, 20);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.home-name {
+    position: absolute;
+    font-family: "Time New Roman";
+    font-style: italic;
+    display: flex;
+    padding: 12px 50px;
+}
+
+.home-tool-selection {
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 50px;
+}
+
+.home-tool-selection-home, .home-tool-selection-about,
+.home-tool-selection-facebook, .home-tool-selection-contact {
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    height: 70px;
+    width: 100px;
+}
+
+.home-tool-selection-home:hover, .home-tool-selection-about:hover,
+.home-tool-selection-facebook:hover, .home-tool-selection-contact:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.container-image-box {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.container img {
+    width: 650px;
+    height: 750px;
+}
+
+.container-return-box {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.container-return-box img {
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.container-return-box img:hover {
+    opacity: 0.8;
+    transition: 500ms;
+    transform: scale(1.1);
+    
+}
+
+.container-text-box-title {
+    position: absolute;
+    top: 150px;
+    left: 950px;
+}
+
+.container-text-box-content {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 450px;
+    width: 500px;
+    max-width: 600px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    hyphens: manual;
+    top: 235px;
+    left: 775px;
+}
+
+.ending {
+    position: relative;
+    top: 808px;
+    height: 125px;
+    width: auto;
+    background-color: rgb(25, 25, 25);
+}
+
+.ending-phone-nums-text {
+    position: absolute;
+    top: 50%;
+    left: calc(20% - 25px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.ending-contact-text {
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 72%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    transform: translate(-50%, -50%);
+}
+
+.ending-contact-section {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.ending-mail-icon-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 40px;
+}
+
+.ending-fb-icon-img {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 50px);
+    transform: translate(-50%, -50%);
+    height: 55px;
+    width: 55px;
+}
+
+.ending-discord-icon-img {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 100px);
+    transform: translate(-50%, -50%);
+    height: 44px;
+    width: 44px;
+}
+
+.ending-cv-icon-img {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 150px);
+    transform: translate(-50%, -50%);
+    height: 55px;
+    width: 50px;
+}
